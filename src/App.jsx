@@ -74,13 +74,13 @@ function App() {
           <div className="details">
             <div className="details-inner">
               <p>
-                <span className="title">Communication</span>
+                <span className="title">Communication:</span> I communicate concisely with my coworkers and try to be a comforting presence for them
               </p>
               <p>
-                <span className="title">Teamwork</span>
+                <span className="title">Teamwork:</span> I aim to contribute to our projects to the best of my ability
               </p>
               <p>
-                <span className="title">Problem Solving</span>
+                <span className="title">Problem Solving:</span> I take the time to research and gain a better understanding of the problems I face
               </p>
             </div>
           </div>
