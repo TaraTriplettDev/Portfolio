@@ -44,7 +44,7 @@ function App() {
         </div>
       </div>
 
-      <div className="subject">
+      <div id="about" className="subject">
         <div className="subject-inner">
           <h1>About</h1>
           <p>
@@ -112,7 +112,7 @@ function App() {
         </div>
       </div>
 
-      <div className="subject">
+      <div id="projects" className="subject">
         <div className="subject-inner">
           <h1>Projects</h1>
           <p>Projects I have worked on</p>
@@ -154,7 +154,7 @@ function App() {
         </div>
       </div>
 
-      <div className="subject">
+      <div id="contacts" className="subject">
         <div className="subject-inner">
           <h1>Contacts</h1>
           <p>I can be reached at ttriplettl6a4@Gmail.com</p>
