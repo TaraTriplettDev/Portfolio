@@ -6,13 +6,13 @@ function App() {
       <div className="header">
         <ul className="nav">
           <li>
-            <a href="#">ABOUT</a>
+            <a href="#about">ABOUT</a>
           </li>
           <li>
-            <a href="#">PROJECTS</a>
+            <a href="#projects">PROJECTS</a>
           </li>
           <li>
-            <a href="#">EDUCATION</a>
+            <a href="#contact">CONTACT</a>
           </li>
         </ul>
 
@@ -154,10 +154,10 @@ function App() {
         </div>
       </div>
 
-      <div id="contacts" className="subject">
+      <div id="contact" className="subject">
         <div className="subject-inner">
-          <h1>Contacts</h1>
-          <p>I can be reached at ttriplettl6a4@Gmail.com</p>
+          <h1>Contact</h1>
+          <p>I can be reached at <span className="title">ttriplettl6a4@Gmail.com</span></p>
         </div>
       </div>
     </>
