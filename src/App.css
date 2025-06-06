@@ -1,0 +1,163 @@
+body {
+  background-color: #070019;
+  font-family: Montserrat, Arial;
+  font-weight: 500;
+}
+
+.header {
+  font-size: 26px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 30px;
+}
+
+.nav a {
+  color: #005D7C;
+  text-decoration: none;
+  display: block;
+}
+
+a {
+  color: #005D7C;
+}
+
+a:hover {
+  color: #00BFFF;
+}
+
+.nav span {
+  color: #070019;
+}
+
+.icons {
+  color: #005D7C;
+  font-size: 50px;
+}
+
+.icon {
+  padding-left: 10px;
+}
+
+hr {
+  color: #00BFFF;
+}
+
+.hero {
+  padding: 60px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  max-width: 760px;
+}
+
+.hero h1 {
+  color: #00BFFF;
+  font-weight: normal;
+  font-size: 55px;
+  margin: 0;
+}
+
+.hero p {
+  color: #005D7C;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.subject {
+  color: #FFFFFF;
+  font-size: 20px;
+  display: flex;
+/*   justify-content: center; */
+  padding: 60px 0px 15px 345px;
+  line-height: 1;
+  
+}
+
+.subject h1 {
+  color: #00BFFF;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.subject h2 {
+  color: #00BFFF;
+  font-size: 30px;
+  font-weight: normal;
+  padding-top: 15px;
+  padding-left: 42px;
+}
+
+.subject p {
+  line-height: 1.6;
+}
+
+.features {
+  background-color: #005D7C33;
+  border-radius: 8px;
+  padding: 15px 45px
+}
+
+.features-inner {
+  max-width: 1200px;
+  line-height: 1.6;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.featured-item h1 {
+  color: #00BFFF;
+  font-size: 30px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.featured-item p {
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.6;
+  color: #FFFFFF;
+}
+
+.details {
+  background-color: #005D7C33;
+  border-radius: 8px;
+  padding: 15px 45px
+}
+
+.details-inner {
+  max-width: 1200px;
+}
+
+.title {
+  color: #00BFFF;
+}
+
+.contacts {
+  color: #FFFFFF;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0px 343px
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
